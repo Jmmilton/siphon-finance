@@ -116,11 +116,11 @@ p {
 
 strong {
   $font-weight: "bold";
-  color: #5c6064;
 }
 
 strong, em {
-  color: #6a7a8a
+  // color: #6a7a8a
+  color: #597694
 }
 
 .main {
@@ -163,8 +163,8 @@ strong, em {
 
 .charts-p {
   padding-top: 5vh;
+  font-size: 22px;
 }
-
 
 .charts-bottom {
   padding-bottom: $sectionGap;
@@ -196,10 +196,6 @@ hr {
 a,
 span {
   color: white;
-}
-
-.nft-span {
-  color: #56595d;
 }
 
 .token {
@@ -260,6 +256,16 @@ span {
     padding-top: 0vh !important;
   }
 
+  .charts li {
+    list-style: none;
+    padding-bottom: 15px;
+    line-height: 1.2;
+  }
+
+  // .color {
+  //   color: #31475e;
+  // }
+
   .header-title,
   .presale,
   .charts, .charts-bottom,
@@ -270,6 +276,10 @@ span {
 
   .chart1, .chart2 {
     padding-top: 8px;
+  }
+
+  ul {
+    padding-left: 0;
   }
 
   .roadmap {

@@ -84,12 +84,8 @@ p {
   padding-left: 2%;
 }
 
-strong {
-  color: #5c6064;
-}
-
 strong, em {
-  color: #6a7a8a;
+  color: #597694;
 }
 
 .main {
@@ -129,6 +125,7 @@ strong, em {
 
 .charts-p {
   padding-top: 5vh;
+  font-size: 22px;
 }
 
 .charts-bottom {
@@ -158,10 +155,6 @@ hr {
 a,
 span {
   color: white;
-}
-
-.nft-span {
-  color: #56595d;
 }
 
 .token {
@@ -224,6 +217,11 @@ span {
   .charts p {
     padding-top: 0vh !important;
   }
+  .charts li {
+    list-style: none;
+    padding-bottom: 15px;
+    line-height: 1.2;
+  }
   .header-title,
   .presale,
   .charts, .charts-bottom,
@@ -233,6 +231,9 @@ span {
   }
   .chart1, .chart2 {
     padding-top: 8px;
+  }
+  ul {
+    padding-left: 0;
   }
   .roadmap {
     width: 100%;
