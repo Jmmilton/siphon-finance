@@ -53,6 +53,11 @@ h2 {
   border-color: #d4c956 !important;
 }
 
+.provide-btn {
+  background-color: #474644;
+  border: #474644;
+}
+
 .btn {
   font-family: "Blinker", sans-serif;
 }
@@ -84,7 +89,8 @@ p {
   padding-left: 2%;
 }
 
-strong, em {
+strong,
+em {
   color: #597694;
 }
 
@@ -117,7 +123,8 @@ strong, em {
   margin: 0 auto;
 }
 
-.chart1, .chart2 {
+.chart1,
+.chart2 {
   width: 100%;
   height: auto;
   margin: 0 auto;
@@ -188,7 +195,8 @@ span {
   margin-top: 15px;
 }
 
-.fund-dist, .presale-target {
+.fund-dist,
+.presale-target {
   padding-top: 5vh;
 }
 
@@ -224,15 +232,17 @@ span {
   }
   .header-title,
   .presale,
-  .charts, .charts-bottom,
+  .charts,
+  .charts-bottom,
   .nft,
   .follow {
     text-align: center;
   }
-  .chart1, .chart2 {
+  .chart1,
+  .chart2 {
     padding-top: 8px;
   }
-  ul {
+  .charts-ul {
     padding-left: 0;
   }
   .roadmap {

@@ -83,6 +83,15 @@ h2 {
   border-color: $logoYellow !important;
 }
 
+.provide-btn {
+  background-color: $logoDark;
+  border: $logoDark;
+}
+
+// .buy-btn:hover {
+//   background-color: ;
+// }
+
 .btn {
   font-family: $secondary-font;
 }
@@ -107,7 +116,7 @@ h3 {
 }
 
 p {
-  margin: 0
+  margin: 0;
 }
 
 .header-title {
@@ -118,9 +127,10 @@ strong {
   $font-weight: "bold";
 }
 
-strong, em {
+strong,
+em {
   // color: #6a7a8a
-  color: #597694
+  color: #597694;
 }
 
 .main {
@@ -154,8 +164,8 @@ strong, em {
   margin: 0 auto;
 }
 
-
-.chart1, .chart2 {
+.chart1,
+.chart2 {
   width: 100%;
   height: auto;
   margin: 0 auto;
@@ -185,11 +195,11 @@ hr {
 
 .follow {
   color: $logoDark;
-  font-family: $primary-font
+  font-family: $primary-font;
 }
 
 .follow-box {
-  background: #474644;
+  background: $logoDark;
   padding: 64px 32px;
 }
 
@@ -224,7 +234,8 @@ span {
   margin-top: 15px;
 }
 
-.fund-dist, .presale-target {
+.fund-dist,
+.presale-target {
   padding-top: 5vh;
 }
 
@@ -262,23 +273,21 @@ span {
     line-height: 1.2;
   }
 
-  // .color {
-  //   color: #31475e;
-  // }
-
   .header-title,
   .presale,
-  .charts, .charts-bottom,
+  .charts,
+  .charts-bottom,
   .nft,
   .follow {
     text-align: center;
   }
 
-  .chart1, .chart2 {
+  .chart1,
+  .chart2 {
     padding-top: 8px;
   }
 
-  ul {
+  .charts-ul {
     padding-left: 0;
   }
 
@@ -289,5 +298,4 @@ span {
   .follow h3 {
     padding-bottom: 10px;
   }
-
 }
